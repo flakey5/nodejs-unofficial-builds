@@ -9,7 +9,7 @@ on:
 jobs:
   check-releases:
     timeout-minutes: 5
-    runs-on: ubuntu-lite # todo confirm name
+    runs-on: ubuntu-latest # todo confirm name
 
     steps:
       - uses: step-security/harden-runner@05e31511f85b41b11d1cf0ef85d0992719546e2c # v2.21.0
