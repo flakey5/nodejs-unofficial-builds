@@ -13,6 +13,6 @@ for disttype in $disttypes; do
   done
 done
 
-"${__dirname}/build-if-queued.sh"
-
-"${__dirname}/status.js"
+# "${__dirname}/build-if-queued.sh"
+#
+# "${__dirname}/status.js"
